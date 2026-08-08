@@ -122,3 +122,44 @@ shorthand to select each icon and change the color hover
 .sm-instagram:hover{
   color: var(--clr-magenta); 
 }
+
+@media screen and (width: 375px){
+  html{
+    overflow: hidden;
+  }
+ .img-logo{
+  padding: 1.20rem 0;
+  margin-left: 1rem;
+  width: 8.5rem;
+ }
+
+ body{
+  width: 100%;
+  background-image: url(/images/bg-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: top center;
+ }
+
+ .page-layout{
+  display: flex;
+  flex-direction: column;
+  margin: auto 2rem;
+ }
+ .img-mockup{
+  width: 20%;
+ }
+
+  article{
+  
+  }
+
+  div{
+    width: 100%;
+  }
+
+}
+
+/* @media screen and (min-width: 375px) and (max-width: 1440px){
+
+} */
