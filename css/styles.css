@@ -1,0 +1,124 @@
+:root{
+  --bg-clr-purple: hsl(257, 40%, 49%);
+  --clr-magenta: hsl(300, 69%, 71%);
+  --ffh-poppins: 'Poppins', sans-serif;
+  --ffb-open-sans: 'Open Sans';
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: var(--bg-clr-purple);
+  background-image: url(/images/bg-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  /* background-cover I learn to used it's useful for fill entire background with image */
+  color: #fff;
+}
+header{
+  padding: 1rem;
+}
+
+.img-logo{
+  width: 13rem;
+  padding: 1.75rem 5.95rem;
+} 
+
+.page-layout{
+  display: flex;
+  align-items: start;
+  width: 90rem;
+  height: 50rem;
+  margin: 6.5rem auto;
+  column-gap: 3.5rem;
+}
+
+.img-mockup{
+  width: 60%;
+}
+
+article{
+  margin-top: 5rem;
+}
+
+article h1{
+  width: 25rem;
+  margin-bottom: 1.1rem;
+  font-family: var(--ffh-poppins);
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+article p{
+  width: 29rem;
+  margin-bottom: 1.5rem;
+  font-family: var(--ffb-open-sans);
+  font-size: 1rem;
+  font-weight: 400;
+  opacity: 80%;
+}
+
+
+.btn-register{
+  width: 11.95rem;
+  padding: 0.75rem 0 0.95rem 0;
+  border-radius: 5rem;
+  font-family: var(--ffb-open-sans);
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #fff;
+  color: var(--bg-clr-purple);
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-register:hover{
+  background-color: var(--clr-magenta);
+  color: #fff;
+  box-shadow: 0 0.3rem 0.5rem 0 hsla(0, 0%, 12%, 0);
+}
+
+.btn-register:active{
+  background-color: var(--clr-magenta);
+  color: var(--bg-clr-purple);
+}
+
+div{ 
+  display: flex;
+  position: relative;
+  gap: 2rem;
+}
+
+.social-icon{
+  position: absolute;
+  width: 10rem;
+  top: 65rem;
+  left: 85rem;
+  cursor: pointer;
+  opacity: 80%;
+}
+
+/* ========================
+shorthand to select each icon and change the color hover 
+ svg:hover{
+  color: var(--clr-magenta); 
+} 
+==========================*/
+
+
+.sm-facebook:hover{
+  color: var(--clr-magenta); 
+}
+
+
+.sm-twitter:hover{
+  color: var(--clr-magenta); 
+}
+
+.sm-instagram:hover{
+  color: var(--clr-magenta); 
+}
