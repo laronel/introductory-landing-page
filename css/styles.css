@@ -18,6 +18,7 @@ body{
   /* background-cover I learn to used it's useful for fill entire background with image */
   color: #fff;
 }
+
 header{
   padding: 1rem;
 }
@@ -87,20 +88,15 @@ article p{
   color: var(--bg-clr-purple);
 }
 
-div{ 
-  display: flex;
-  position: relative;
-  gap: 2rem;
-}
-
 .social-icon{
-  position: absolute;
+  display: flex;
+  position:relative;
   width: 10rem;
-  top: 65rem;
-  left: 85rem;
   cursor: pointer;
   opacity: 80%;
+  gap: 1rem;
 }
+
 
 /* ========================
 shorthand to select each icon and change the color hover 
@@ -149,14 +145,6 @@ shorthand to select each icon and change the color hover
  .img-mockup{
   width: 20%;
  }
-
-  article{
-  
-  }
-
-  div{
-    width: 100%;
-  }
 
 }
 
