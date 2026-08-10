@@ -1,4 +1,4 @@
-:root{
+ :root{
   --bg-clr-purple: hsl(257, 40%, 49%);
   --clr-magenta: hsl(300, 69%, 71%);
   --ffh-poppins: 'Poppins', sans-serif;
@@ -8,52 +8,56 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  overflow-y: hidden;
 }
 
 body{
-  background-color: var(--bg-clr-purple);
   background-image: url(/images/bg-desktop.svg);
   background-repeat: no-repeat;
-  background-size: cover; 
-  /* background-cover I learn to used it's useful for fill entire background with image */
-  color: #fff;
+  background-size: cover;
+  background-color: var(--bg-clr-purple);
 }
 
-header{
-  padding: 1rem;
-}
-
-.img-logo{
-  width: 13rem;
+.huddle-logo{
+  width: 25rem;
   padding: 1.75rem 5.95rem;
-} 
+  margin-top: 2.5rem;
+  margin-left: 4.5rem
+}
 
-.page-layout{
+.illustration-mockup{
+  width: 30rem;
+}
+
+.page-content{
   display: flex;
-  align-items: start;
-  width: 90rem;
-  height: 50rem;
-  margin: 6.5rem auto;
-  column-gap: 3.5rem;
+  justify-content: center;
+  width: 85rem;
+  height: 100%;
+  margin: 8.5rem  auto;
+  column-gap: 20rem;
 }
 
-.img-mockup{
-  width: 60%;
-}
-
-article{
+.title-content{
   margin-top: 5rem;
 }
 
-article h1{
-  width: 25rem;
-  margin-bottom: 1.1rem;
-  font-family: var(--ffh-poppins);
-  font-size: 2rem;
-  font-weight: 400;
+.title-content h1, p{
+  color: #fff;
 }
 
-article p{
+.title-content h1{
+  padding-bottom: 1.1rem;
+  width: 25rem;
+  font-family: var(--ffh-poppins);
+  font-weight: 600;
+}
+
+.title-content p{
   width: 29rem;
   margin-bottom: 1.5rem;
   font-family: var(--ffb-open-sans);
@@ -61,7 +65,6 @@ article p{
   font-weight: 400;
   opacity: 80%;
 }
-
 
 .btn-register{
   width: 11.95rem;
@@ -88,66 +91,19 @@ article p{
   color: var(--bg-clr-purple);
 }
 
-.social-icon{
+.bi.facebook{
+  color: #fff;
+}
+
+.icon-social{
   display: flex;
-  position:relative;
-  width: 10rem;
-  cursor: pointer;
-  opacity: 80%;
-  gap: 1rem;
+  justify-content: flex-end;
+  column-gap: 1rem;
+  margin-right: 10rem;
 }
 
-
-/* ========================
-shorthand to select each icon and change the color hover 
- svg:hover{
-  color: var(--clr-magenta); 
-} 
-==========================*/
-
-
-.sm-facebook:hover{
-  color: var(--clr-magenta); 
+.social-media{
+  width: 1.95rem;
+  border: 1px solid #fff;
+  
 }
-
-
-.sm-twitter:hover{
-  color: var(--clr-magenta); 
-}
-
-.sm-instagram:hover{
-  color: var(--clr-magenta); 
-}
-
-@media screen and (width: 375px){
-  html{
-    overflow: hidden;
-  }
- .img-logo{
-  padding: 1.20rem 0;
-  margin-left: 1rem;
-  width: 8.5rem;
- }
-
- body{
-  width: 100%;
-  background-image: url(/images/bg-mobile.svg);
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  background-position: top center;
- }
-
- .page-layout{
-  display: flex;
-  flex-direction: column;
-  margin: auto 2rem;
- }
- .img-mockup{
-  width: 20%;
- }
-
-}
-
-/* @media screen and (min-width: 375px) and (max-width: 1440px){
-
-} */
