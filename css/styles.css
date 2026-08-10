@@ -91,19 +91,28 @@ body{
   color: var(--bg-clr-purple);
 }
 
-.bi.facebook{
-  color: #fff;
-}
-
-.icon-social{
+footer{
   display: flex;
   justify-content: flex-end;
-  column-gap: 1rem;
+  column-gap: 2rem;
   margin-right: 10rem;
+  padding: 2.3rem;
 }
 
 .social-media{
-  width: 1.95rem;
-  border: 1px solid #fff;
-  
+  color:#fff;
+  width: 2rem;
+}
+
+.sm-facebook:hover{
+  color: var(--clr-magenta); 
+}
+
+
+.sm-twitter:hover{
+  color: var(--clr-magenta); 
+}
+
+.sm-instagram:hover{
+  color: var(--clr-magenta); 
 }
