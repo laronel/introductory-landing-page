@@ -1,14 +1,14 @@
-# Huddle lading page
+# Huddle landing page
 
 ![Huddle static landing page](image.png)
 
 Goal: Responsive Design with flexBox
-Tech: Html & CSS.
+Tech: HTML & CSS.
 Status: complete
 Ideas: 
   - Website
   - community web
-  - simple lading page
+  - simple landing page
 
 
 
@@ -24,7 +24,11 @@ Ideas:
   ### Filed
     > I have to face it every time I structure my code to find some error. Semantic HTML looks great when I have done it, but I have to give structure for every block to do something good after that. Sometimes I deleted everything and created it again and again and again, but nothing worked. Well, I forced my brain to think enough, but nothing has changed. The icon broke itself because its path has a custom size, and I have to personalize and use and this gave another broken layout; the icon doesn't work with flexbox, I have to learn a new attribute to make the icon work.
 
+<<<<<<< HEAD
 > Other Failed was when creating the mobile design; the image mockup don't was working in terms of size, spacing, etc. Information on the page are break on the middle responsive, and I had to fix it. This took me 3 days.
+=======
+> Another failure was when creating the mobile design; the image mockup wasn't working in terms of size, spacing, etc. Information on the page are break on the middle responsive, and I had to fix it. This took me 3 days.
+>>>>>>> 8b91e65b97761d08e23285dee55d1721af40d822
 
 ### Fix
   Actually, I solved every layout page focus on the challenge description. I had to read the documentation and read other code to solve it:
@@ -41,4 +45,8 @@ Ideas:
   - object-fit: -> to make image content visible;
   - background-position: to position the image on desktop and mobile.
   - background-size: to set a real image size to fill the entire web page.
+<<<<<<< HEAD
   - How to control your flexbox so you don't get a conflict.
+=======
+  - How to control your flexbox so you don't get a conflict.
+>>>>>>> 8b91e65b97761d08e23285dee55d1721af40d822
