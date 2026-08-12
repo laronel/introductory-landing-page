@@ -11,4 +11,4 @@ Ideas:
 ## Error
 
 ### Description
- This challenge focus on simple responsive web design
+ This challenge focuses on simple responsive web design
