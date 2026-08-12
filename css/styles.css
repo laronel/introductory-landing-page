@@ -4,6 +4,7 @@
   --ffh-poppins: 'Poppins', sans-serif;
   --ffb-open-sans: 'Open Sans';
   --font-clr: #fff;
+  --box-shadow: hsla(0, 0%, 12%, 0);
 }
 
 *{
@@ -60,6 +61,7 @@ body{
 .title-content p{
   max-width: 29rem;
   margin-bottom: 1.5rem;
+  margin-inline-start: 0;
   font-family: var(--ffb-open-sans);
   font-size: 1rem;
   font-weight: 400;
@@ -83,7 +85,7 @@ body{
 .btn-register:hover{
   background-color: var(--clr-magenta);
   color: var(--font-clr);
-  box-shadow: 0 0.3rem 0.5rem 0 hsla(0, 0%, 12%, 0);
+  box-shadow: 0 0.3rem 0.5rem 0 var(--box-shadow);
 }
 
 .btn-register:active{
