@@ -51,7 +51,7 @@ body{
 }
 
 .title-content h1{
-  padding-bottom: 1.1rem;
+  padding-inline-start: 0;
   max-width: 25rem;
   font-family: var(--ffh-poppins);
   font-weight: 600;
