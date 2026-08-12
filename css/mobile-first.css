@@ -1,4 +1,4 @@
-@media screen and (max-width: 90rem){
+@media screen and (min-width: 90rem){
   body{
     background-image: url(/images/bg-mobile.svg);
     background-size: 100% auto;

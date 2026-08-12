@@ -3,6 +3,7 @@
   --clr-magenta: hsl(300, 69%, 71%);
   --ffh-poppins: 'Poppins', sans-serif;
   --ffb-open-sans: 'Open Sans';
+  --font-clr: #fff;
 }
 
 *{
@@ -24,9 +25,9 @@ body{
 
 .huddle-logo{
   width: 25rem;
-  padding: 1.75rem 5.95rem;
+  padding: calc(1.75rem + 1.75rem);
   margin-top: 2.5rem;
-  margin-left: 4.5rem
+  margin-inline-start: 0;
 }
 
 .img-mockup{
@@ -47,7 +48,7 @@ body{
 }
 
 .title-content h1, p{
-  color: #fff;
+  color: var(--font-clr);
 }
 
 .title-content h1{
