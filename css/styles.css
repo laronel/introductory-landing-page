@@ -33,7 +33,7 @@ body{
   max-width: 30rem;
 }
 
-.page-content{
+.container .page-content { 
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -118,3 +118,4 @@ body{
 .sm-instagram:hover{
   color: var(--clr-magenta); 
 }
+
