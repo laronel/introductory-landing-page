@@ -26,7 +26,6 @@ body{
 .huddle-logo{
   width: 25rem;
   padding: calc(1.75rem + 1.75rem);
-  margin-top: 2.5rem;
   margin-inline-start: 0;
 }
 
@@ -74,7 +73,7 @@ body{
   font-family: var(--ffb-open-sans);
   font-size: 1rem;
   font-weight: 600;
-  background-color: #fff;
+  background-color: var(--font-clr);
   color: var(--bg-clr-purple);
   border: none;
   cursor: pointer;
