@@ -119,3 +119,9 @@ body{
   color: var(--clr-magenta); 
 }
 
+@media screen and (prefers-reduced-motion: reduce){
+  .btn-register{
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
