@@ -121,8 +121,7 @@ body{
 
 @media screen and (prefers-reduced-motion: reduce){
   .btn-register{
-    animation-duration: 0.001ms;
-    transition-duration: 0.001ms;
+    animation: none;
     transition: none;
   }
 }
