@@ -123,5 +123,6 @@ body{
   .btn-register{
     animation-duration: 0.001ms;
     transition-duration: 0.001ms;
+    transition: none;
   }
 }
