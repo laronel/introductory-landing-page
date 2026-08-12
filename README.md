@@ -1,12 +1,12 @@
-# Huddle lading page
+# Huddle landing page
 
 Goal: Responsive Design with flexBox
-Tech: Html & CSS.
+Tech: HTML & CSS.
 Status: complete
 Ideas: 
   - Website
   - community web
-  - simple lading page
+  - simple landing page
 
 ## Error
 
