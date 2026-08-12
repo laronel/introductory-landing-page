@@ -60,7 +60,7 @@ body{
 
 .title-content p{
   max-width: 29rem;
-  margin-bottom: 1.5rem;
+  margin-block-end: 1.5rem;
   margin-inline-start: 0;
   font-family: var(--ffb-open-sans);
   font-size: 1rem;
