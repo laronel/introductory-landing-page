@@ -72,3 +72,4 @@ body{
 .btn-register:hover{background-color: var(--clr-magenta);color: var(--font-clr);box-shadow: 0 0 3rem 0.5rem 0 var(--box-shadow);}
 .btn-register:active{background-color: var(--clr-magenta);color: var(--bg-clr-purple);
 }
+
