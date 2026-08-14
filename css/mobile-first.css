@@ -1,0 +1,56 @@
+@media screen and (min-width: 90rem){
+html,
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  background-image: url(/images/bg-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: top center;
+  background-color: var(--bg-clr-purple);
+  }
+}
+
+.huddle-logo{
+  width: calc(15rem - 4rem);
+  margin-inline-start: 0;
+  margin-block-start: 0;
+}
+
+.container .page-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto 0 1.25rem;
+}
+
+.page-content .img-mockup img{
+  display: block;
+  width: calc(55rem - 33rem);
+  margin-inline-start: 1rem;
+  object-fit: contain;
+}
+
+.page-content .title-content{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.title-content h1{
+  font-weight: 700;
+  font-size: 1.85rem;
+  margin-block-start: 2rem;
+}
+
+.title-content p{
+  padding: 0 1.25rem;
+  width: calc(20rem - 10rem);
+}
+

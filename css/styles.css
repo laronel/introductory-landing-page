@@ -76,3 +76,10 @@ body{
 .social-icon .social-media{display: flex; flex-direction:row; justify-content: flex-end;margin-inline-end: 8.5rem; margin-block-start: 4rem;column-gap: 2rem;}
 .social-media i{color: var(--font-clr);padding-inline: 1rem;padding-block: 1rem;border: 1px solid var(--font-clr);border-radius: 2.5rem;}
 .social-media .sm:hover{color:var(--clr-magenta)}
+
+@media screen and (prefers-reduced-motion: reduce){
+.btn-register{
+  animation: none;
+  transition: none;
+}
+}
