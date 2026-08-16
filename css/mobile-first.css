@@ -1,4 +1,4 @@
-@media screen and (max-width: 375px){
+@media screen and (max-width: 23.438rem){
 html,
 body{
   margin: 0;
@@ -17,7 +17,7 @@ body{
 }
 
 .huddle-logo{
-  width: calc(15rem - 4rem);
+  width: 11rem;
   margin-inline-start: 0;
   margin-block-start: 0;
 }
@@ -49,5 +49,5 @@ body{
 .title-content p{
   padding: 0 1.25rem;
   width: calc(20rem - 10rem);
-}  */
+}   */
 

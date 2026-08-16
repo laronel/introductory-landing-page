@@ -29,7 +29,8 @@ body{
 }
 
 .page-content .img-mockup img{
-  width: max(50vw, 55rem);
+  width: max(55vw, 55rem);
+  max-width: 100%;
 }
 
 .page-content .title-content{
@@ -46,7 +47,7 @@ body{
 }
 
 .page-content .title-content p{
-  width: max(20vw, 29rem);
+  width: max(20rem, 100%);
   margin-block-end: 1.5rem;
   color: var(--font-clr);
   font-family: var(--ffb-open-sans);
