@@ -78,9 +78,3 @@ body{
 .social-media i{color: var(--font-clr);padding-inline: 1rem;padding-block: 1rem;border: 1px solid var(--font-clr);border-radius: 2.5rem;}
 .social-media .sm:hover{color:var(--clr-magenta)}
 
-@media screen and (prefers-reduced-motion: reduce){
-.btn-register{
-  animation: none;
-  transition: none;
-}
-}

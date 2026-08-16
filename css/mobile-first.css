@@ -1,4 +1,4 @@
-@media screen and (max-width: 23.438rem){
+@media (max-width: 23.438rem){
 html,
 body{
   margin: 0;
@@ -16,13 +16,14 @@ body{
   }
 }
 
-.huddle-logo{
+
+/* .huddle-logo{
   width: 11rem;
   margin-inline-start: 0;
   margin-block-start: 0;
-}
+} */
 
-/* .container .page-content{
+ /* .container .page-content{
   justify-content: center;
   margin: 0 auto 0 1.25rem;
 }
@@ -51,3 +52,10 @@ body{
   width: calc(20rem - 10rem);
 }   */
 
+
+@media screen and (prefers-reduced-motion: reduce){
+.btn-register{
+  animation: none;
+  transition: none;
+}
+}
