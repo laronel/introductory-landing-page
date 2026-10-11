@@ -12,29 +12,29 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-color: var(--bg-clr-purple);
+  height: 100vh;
+  width: 100%;
 }
 
 .huddle-logo{
   width: 15rem;
-  padding: calc(0.75rem + 1.75rem);
-  margin-inline-start: 3.5rem;
-  margin-block: 1.50rem 3.5rem;
+  margin-inline-start: 5.5rem;
+  padding-top: 5rem
 }
-
-.container .page-content{
+.page-content{
   display: flex;
-  margin-inline-start: 6.5rem;
-  margin-block: 1rem;
-  column-gap: 3.5rem
+  justify-content: center;
+  column-gap: 3.5rem;
+  margin-top: 10rem;
+  margin-left: -5rem;
 }
-
 .page-content .img-mockup img{
   width: max(55vw, 55rem);
   max-width: 100%;
 }
-
 .page-content .title-content{
-  margin-block-start: 3.5rem;
+  margin-block-start: 5.5rem;
+  width: 29rem;
 }
 
 .page-content .title-content h1{
