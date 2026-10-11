@@ -12,6 +12,12 @@ html, body{
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background-color: hsl(257, 40%, 49%);
+  background-image: url(/images/bg-desktop.svg);
+  background-repeat: no-repeat;
+  background-image: cover;
+}
 .header{
   margin: 2rem 5rem;
   padding-bottom: 5rem;
@@ -66,4 +72,18 @@ html, body{
   color: var(--font-clr);
   background-color: var(--clr-magenta);
   transition: ease 0.3s;
+}
+.social-media{
+  display: flex;
+  justify-content: flex-end;
+  color: var(--font-clr);
+  gap: 2rem;
+  margin: auto 5rem;
+}
+.facebook-icon,
+.twitter-icon,
+.instagram-icon{
+  border: 1px solid var(--font-clr);
+  border-radius: 5rem;
+  padding: 0.975rem;
 }
