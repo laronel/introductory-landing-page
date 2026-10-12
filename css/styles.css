@@ -17,6 +17,8 @@ body{
   background-image: url(/images/bg-desktop.svg);
   background-repeat: no-repeat;
   background-image: cover;
+  background-size: 100% auto;
+  object-fit: fill;
 }
 .header{
   margin: 2rem 5rem;
@@ -28,10 +30,9 @@ body{
 .content{
   display: flex;
   align-items: center;
-  margin: 10rem auto;
+  margin: 5rem auto;
   max-width: 90%;
   gap: 5rem;
-  margin-top: 0;
 }
 .image-layout{
   width: max(45vw, 20rem);
@@ -74,11 +75,14 @@ body{
   transition: ease 0.3s;
 }
 .social-media{
+  position: relative;
+  bottom: 7rem;
   display: flex;
   justify-content: flex-end;
   color: var(--font-clr);
   gap: 2rem;
   margin: auto 5rem;
+  transition: ease-in-out 0.3s;
 }
 .facebook-icon,
 .twitter-icon,
@@ -86,4 +90,10 @@ body{
   border: 1px solid var(--font-clr);
   border-radius: 5rem;
   padding: 0.975rem;
+  cursor: pointer;
+}
+.active-hover:hover{
+  color: var(--clr-magenta);
+  border-color: var(--clr-magenta);
+  transition: ease-in 0.3s;
 }
