@@ -1,0 +1,23 @@
+@media (width: 375px){
+  *, body{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background-image: url(/images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center top;  
+    min-height: 300px;
+  }
+  .huddle-logo{
+    padding-left: 1rem;
+    width: 40%;
+  }
+  .content{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 0;
+  }
+}
