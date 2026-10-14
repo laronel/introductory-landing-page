@@ -13,7 +13,7 @@ html, body{
   box-sizing: border-box;
 }
 body{
-  background-color: hsl(257, 40%, 49%);
+  background-color: var(--bg-clr-purple);
   background-image: url(/images/bg-desktop.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -51,7 +51,7 @@ body{
   font-family: var(--ffb-open-sans);
   font-size: 0.975rem;
   opacity: 80%;
-  padding-bottom: 1rem;
+  padding-inline: 1rem;
 }
 .btn_register{
   padding: 1rem;
