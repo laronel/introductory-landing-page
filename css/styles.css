@@ -27,7 +27,6 @@ body{
 }
 .content{
   display: flex;
-  align-items: center;
   margin: 5rem auto;
   max-width: 90%;
   gap: 5rem;
