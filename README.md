@@ -1,6 +1,6 @@
 # Huddle landing page
 
-![Huddle static landing page](image.png)
+![Huddle static landing page](/images/Screenshot%202026-10-14%20at%2010.51.35.png)
 
 Goal: Responsive Design with flexBox
 Tech: HTML & CSS.
