@@ -19,6 +19,7 @@ body{
   background-size: cover;
   background-position: center center;
   object-fit: fill;
+  min-height: 100vh;
 }
 .huddle-logo{
   width: max(10vw, 12rem);
@@ -72,13 +73,11 @@ body{
   transition: ease 0.3s;
 }
 .social-media{
-  position: relative;
-  bottom: 7rem;
   display: flex;
   justify-content: flex-end;
   color: var(--font-clr);
   gap: 2rem;
-  margin: auto 5rem;
+  margin: 12rem  5rem;
   transition: ease-in-out 0.3s;
 }
 .facebook-icon,

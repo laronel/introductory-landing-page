@@ -34,6 +34,56 @@
   .page-content p{
     padding: 0.50rem 0 2rem 0;
     font-size: 1.025rem;
-
+  }
+  .btn-register{
+    padding: 0 3rem;
   }
 }
+
+/* @media (min-width: 768px){
+  body{
+  background-color: hsl(257, 40%, 49%);
+  background-image: url(/images/bg-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center top;
+  object-fit: fill;
+  min-width: 100vw;
+  min-height: 100vh;
+ }
+  .huddle-logo{
+    width: max(10vw, 12rem);
+    padding: 2rem;
+  }
+  .content{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    max-width: 90%;
+    gap: 2rem;
+  }
+  .image-layout{
+    width: max(45vw, 35rem);
+    margin-top: 0;
+  }
+  .page-content{
+    margin-block: 0;
+    text-align: center;
+  }
+  .page-content h1{
+    padding: 0;
+    font-size: 2rem;
+  }
+  .page-content p{
+    font-size: 1.10rem;
+  }
+  .btn_register{
+    width: 15rem;
+    margin-bottom: 5rem;
+  }
+  .social-media{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+  }
+} */
